@@ -1,0 +1,81 @@
+1. Relative X path
+A. Syntax for Xpath:(finding by attribute
+//tag-name[@attribute='attribute value']
+
+Translation:
+get me the tag name, which has an 'attribute value'
+
+i.g:
+<input name = "abra" ,class="fhdhfd"/>
+
+task is to write the xpath to get this web element
+
+//input[@name='abra']
+
+Get me the tag input which has an attribute name who's value is abra
+
+xpath has more features like find by text, find by partial text, etc
+the concept remains the same only the syntax differ.
+
+
+
+
+
+
+
+====================================================
+
+B. Syntax for Xpath (finding by text):
+//tagname[text()='text value']
+
+Translation:
+hey get me the tag name which has a text "text value."
+
+Condition:
+our HTML code (webElement) must have text.
+
+i.g:
+
+<button id = "tro", class="fyo"> hello </button>
+
+answer:
+//button[text()='hello']
+
+==================================================
+
+
+
+
+
+
+
+
+
+C. Syntax for xPath (finding by contains method):
+
+a. for attribute
+
+//tagname[contains@attribute, 'partial attribute value']
+
+translation:
+
+get me the tag name which has an attribute whose value contains "partial value of the attribute"
+
+
+
+
+
+
+
+=====================Example=====================
+<input email= "how are you i am fine, thank you" id="dsfs"/>
+
+xpath using contains method:
+
+//input[contains(@email,'how are you')]
+
+===============================================
+
+c--b for text
+
+//tagname[contains(text(),'partial attribute value')}
