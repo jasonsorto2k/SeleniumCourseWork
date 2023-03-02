@@ -1,0 +1,21 @@
+
+checkboxes and radio buttons are same to deal with
+the only difference is that u can check more options when it comes to check boxes
+
+HW1:
+goto http://practice.syntaxtechs.net/basic-checkbox-demo.php
+check if the check box    "click on this check box" is Selected
+if no  Select the check box
+check gain if the checkbox is Selected or not
+Syntax - Website to practice Syntax Automation Platform
+Syntax Automation Platform has great examples like Ajax, JQuery, Bootstrap etc which are used in most of the web applications around the world.
+
+
+Hw2:
+goto http://practice.syntaxtechs.net/basic-checkbox-demo.php
+1. u need to write down the code that can select  1 check box out of 4 mentioned,
+e.g option1 , option2 , option 3, option 4
+
+Note write down the logic in dynamic way i.e one change in if else condition can change ur selection
+Syntax - Website to practice Syntax Automation Platform
+Syntax Automation Platform has great examples like Ajax, JQuery, Bootstrap etc which are used in most of the web applications around the world.
